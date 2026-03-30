@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = 'jenkins-ci'
+    IMAGE_NAME = 'jenkins-ci-demo'
     IMAGE_TAG = 'v1'
     DOCKER_USER = 'rootpromptnext'
   }
