@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     IMAGE_NAME = 'jenkins-ci-demo'
-    IMAGE_TAG = 'v1'
+    IMAGE_TAG = 'v2'
     DOCKER_USER = 'rootpromptnext'
   }
 
