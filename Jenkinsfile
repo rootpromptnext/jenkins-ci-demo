@@ -12,7 +12,7 @@ pipeline {
       steps {
         sh 'rm -fr jenkins-ci-demo'
         sh 'echo "Cloning a repo..."'
-        sh 'git clone https://github.com/prayag-sangode/jenkins-ci-demo.git'
+        sh 'git clone https://github.com/rootpromptnext/jenkins-ci-demo.git'
       }
     }
 
